@@ -1,0 +1,1 @@
+cargo install --path . && mkdir -p %{buildroot}/usr/bin && pushd "${HOME}/.cargo/bin/" && mv * %{buildroot}/usr/bin/ && popd
